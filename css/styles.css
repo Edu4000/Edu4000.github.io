@@ -1,0 +1,42 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+	background-color: rgb(213, 255, 224);
+}
+
+.menu {
+	height: 8vh;
+	box-sizing: content-box;
+	background-color: rgba(33, 151, 106, 0.534);
+}
+
+.end {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(33, 151, 106, 0.534);
+	height: 8vh;
+	width: 100%;
+}
+
+.end table {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+.redes {
+	width: 30vw;
+}
+
+.contacto {
+	width: 20vw;
+}
