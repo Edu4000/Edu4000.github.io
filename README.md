@@ -1,6 +1,6 @@
 # Edu4000.github.io
 
-Hi 👋!!
+## Hi 👋!!
 
 This is the repository of my online portfolio. 
 If you want to learn about me and/or are interested on my previous work you can check it out.
