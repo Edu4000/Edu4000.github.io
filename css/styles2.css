@@ -1,0 +1,278 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: #243E36;
+}
+
+/* Colores */
+colgroup {
+	color: #F1F7ED;
+	color: #243E36;
+	color: #7CA982;
+	color: #E0EEC6;
+	color: #C2A83E;
+}
+
+/* General Styles */
+body {
+	position: relative;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+	background-color: #F1F7ED;
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+	padding: 30px;
+	margin-left: -30px;
+}
+
+p {
+	line-height: 35px;
+	padding: 30px;
+	margin-left: -30px;
+	text-align: justify;
+}
+
+/* Header & Footer */
+header, footer {
+	color: #F1F7ED;
+	background-color: #7CA982;
+	display: table-cell;
+	height: 10vh;
+	width: 100vw;
+	vertical-align: middle;
+	text-align: center;
+}
+
+header button {
+	color: #F1F7ED;
+	background-color: #7CA982;
+	width: 15%;
+	height: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+}
+
+header button:hover {
+	background-color: #0000000a;
+}
+
+header i {
+	left: 0;
+	position: relative;
+	font-size: 22px;
+	font-weight: bolder;
+}
+
+/* Section */
+section {
+	position: relative;
+	width: 800px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+/* Intro */
+.intro {
+	height: 470px;
+}
+
+.intro h1 {
+	font-size: 80px;
+	text-align: left;
+	padding: 30px;
+	margin-left: -30px;
+	width: 450px;
+}
+
+.intro p {
+	margin-top: -30px;
+	width: 400px;
+}
+
+.intro div {
+	width: 350px;
+	margin-left: 450px;
+	margin-top: -405px;
+}
+
+.intro div img {
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+
+/* Education */
+.edu {
+	text-align: left;
+	font-size: 15px;
+	background-color: #E0EEC6;
+	padding: 30px;
+	border-radius: 50px;
+}
+
+.edu h2 {
+	margin-top: -30px;
+	left: 30px;
+	width: 100%;
+}
+
+.edu p {
+	padding: 0;
+	margin-left: 30px;
+	width: 100%;
+}
+
+samp {
+	font-weight: bolder;
+}
+
+/* Table */
+table {
+	position: relative;
+	left: 25%;
+	width: 50%;
+}
+
+table tr {
+	height: 30px;
+}
+
+table i {
+	color: #C2A83E;
+}
+
+/* Section */
+
+.cont h3 {
+	width: 400px;
+	margin-left: -30px;
+}
+
+.cont p {
+	width: 400px;
+}
+
+.cont {
+	height: auto;
+	padding: 0px;
+	width: 400px;
+	padding: 30px;
+	margin-bottom: 30px;
+	border-radius: 50px;
+	vertical-align: middle;
+	background-color:#E0EEC6;
+}
+
+.img1 {
+	width: 400px;
+	height: 400px;
+	margin-left: 400px;
+	margin-bottom: -400px;
+}
+
+.img2 {
+	width: 800px;
+	margin-bottom: 30px;
+}
+
+.img2 img {
+	border-radius: 50px;
+}
+
+/* Hobbys and Favorite */
+ul {
+	vertical-align: middle;
+}
+
+ul p {
+	height: 300px;
+	width: 800px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #F1F7ED;
+	background-color: #243e3670;
+	font-size: 100px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+ul p:hover {
+	background-color: rgba(36, 62, 54, 0);
+	color: #f1f7ed00;
+}
+
+.gaming {
+	background-image: url("../src/gaming.jpg");
+	background-position-y: 33%;
+	background-position-x: center;
+	background-size: 800px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.workout {
+	background-image: url("../src/workout.png");
+	background-position-y: 33%;
+	background-position-x: center;
+	background-size: 800px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.music {
+	background-image: url("../src/music.jpg");
+	background-position-y: 33%;
+	background-position-x: center;
+	background-size: 800px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.programming {
+	background-image: url("../src/programming.jpg");
+	background-position-y: 33%;
+	background-position-x: center;
+	background-size: 800px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.ddlc {
+	background-image: url("../src/ddlc.jpg");
+	background-position-y: 33%;
+	background-position-x: center;
+	background-size: 800px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.tron {
+	background-image: url("../src/Tron.jpg");
+	background-position-y: 33%;
+	background-position-x: center;
+	background-size: 800px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.lb {
+	background-image: url("../src/Laura\ Brehm.png");
+	background-position-y: 33%;
+	background-position-x: center;
+	background-size: 800px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+/* Image */
+img {
+	width: 100%;
+	height: auto;
+}
